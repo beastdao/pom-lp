@@ -13,7 +13,7 @@ export default {
         'pastel-green-light': '#F7FFDA',
         'light-purple': '#DECCFA',
         'pastel-blue': '#9DD3E8',
-        'pastel-blue-light': ''
+        'pastel-blue-light': '#E2F7FF'
       },
       textColor: {
         // grey: 'rgb(25, 21, 22, 60)',
