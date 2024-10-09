@@ -9,6 +9,9 @@
   h2 {
     @apply text-3xl;
   }
+  h3 {
+    @apply text-2xl;
+  }
 
   body {
     background-color: #F8F8F8;
