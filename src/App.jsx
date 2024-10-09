@@ -7,7 +7,7 @@ import UseCases from './components/UseCases'
 import Benefits from './components/Benefits'
 import FAQ from './components/FAQ'
 import BeastDao from './components/BeastDao'
-import Footer from './components/Footer'
+import FooterNav from './components/Footer'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Benefits/>
       <FAQ/>
       <BeastDao/>
-      <Footer/>
+      <FooterNav/>
     </>
   )
 }

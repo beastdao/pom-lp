@@ -1,5 +1,5 @@
 {
-    "benefits": [
+    "communities": [
       {
         "title": "Enhanced Trust",
         "text": "Boost the trustworthiness of your community by showcasing PoM memberships."
@@ -20,6 +20,28 @@
         "title": "Showcase Active Members",
         "text": "Demonstrate active engagement to potential investors and stakeholders by showcasing the issued PoM memberships."
       }
+    ],
+    "newcomers": [
+        {
+            "title": "Free Proof of Membership Token",
+            "text": "Get a free and unique community-issued membership (Soul Bound Token), and unlock exclusive benefits provided by communities!"
+          },
+          {
+            "title": "Trusted Entry Point",
+            "text": "Discover authentic web3 communities in one place for a safe and reliable entry point into the space."
+          },
+          {
+            "title": "Seamless Engagement",
+            "text": "Participate in discussions and activities within verified communities without worrying about fraudulent activities."
+          },
+          {
+            "title": "Learning and Growth",
+            "text": "Access valuable resources, educational materials, and mentorship opportunities within verified communities."
+          },
+          {
+            "title": "Your Feedback Matters",
+            "text": "Support your communities and help them improve by sharing valuable insights and concerns. Your reviews will help others and bring transparency."
+          }
     ]
   }
   
