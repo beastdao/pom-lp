@@ -4,7 +4,7 @@ import Logo from '../assets/POM-LOGO.png'
 
 function NavMenu() {
   return (
-    <Navbar fluid rounded>
+    <Navbar fluid rounded className='bg-pom-white'>
       <Navbar.Brand>
         <img src={Logo} className="mr-3 h-6 sm:h-9" alt="Proof of Membership Logo" />
       </Navbar.Brand>

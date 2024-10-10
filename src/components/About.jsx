@@ -28,8 +28,9 @@ function About() {
         <p>PoM aims to make the crypto space safer, and is based on the 3 key pillars:</p>
 
         <p>1. PoM protocol - a decentralised token-based memberships system for community registration, issuance of personalized memberships, and information validation, available as a public good.</p>
-
-        {/* Insert 2 other pillars */}
+        <p>
+        2. PoM for Communities: an ultimate tool, allowing to vote together, to enable token-gated access or to boost members identification using beautiful digital merch and much more!</p>
+        <p>3. PoM for Ecosystem: a powerful tech, enabling new public goods & commercial projects. Our flagship project is: Community Base (more info below).</p>
 
         <Button href="https://app.pom.cards/" color='dark'  className='w-1/2'>TRY NOW</Button>
       </div>
@@ -40,14 +41,13 @@ function About() {
 
         {/* How does it work section */}
         <div className='bg-pastel-blue p-8 rounded flex flex-col justify-evenly'>
-        <h2>How does it work?</h2>
-        <p>Register your community, issue unique SoulBound Tokens for your members for free, and boost community cohesion, engagement, and resources.</p>
-        <ol className="list-decimal">
-          <li>Register Your Community with the PoM dApp.</li>
-          <li>See Your Community Listed in the Community Base</li>
-          <li>Invite Members to Issue PoM Soulbound Tokens</li>
-          <li>Receive Reviews from your Community Members</li>
-          <li>Verify Community & Respond to the Info in the Community Base</li>
+        <h2>PoM for Communities</h2>
+        <p>
+        Create your community effortlessly with PoM, get personalized, customizable SoulBound Tokens available for your members for free, and boost community cohesion, engagement, and resources.</p>
+        <ol>
+          <li>1. Create Your Community with the PoM dApp</li>
+          <li>2. Invite Members to get PoM Soulbound Tokens</li>
+          <li>3. Use token-based memberships for benefit of your community in various ways</li>
         </ol>
 
         <Button href="https://app.pom.cards/" color='dark'  className='w-1/2'>TRY NOW</Button>
