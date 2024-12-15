@@ -14,14 +14,12 @@ function FooterNav() {
       />
       <Footer.LinkGroup>
         <Footer.Link href="#">TOS</Footer.Link>
-        <Footer.Link href="#">PRIVACY POLICY</Footer.Link>
-        <Footer.Link href="#">IMPRINT</Footer.Link>
         <Footer.Link href="mailto: pomcardsnft@gmail.com">CONTACT US</Footer.Link>
       </Footer.LinkGroup>
 
       {/* Social media icons */}
-      <Footer.Icon href="#" icon={FaXTwitter} />
-      <Footer.Icon href="#" icon={FaDiscord} />
+      <Footer.Icon href="https://twitter.com/pomcards" icon={FaXTwitter} />
+      <Footer.Icon href="https://discord.gg/McqF7vyCWx" icon={FaDiscord} />
     </Footer>
   )
 }
