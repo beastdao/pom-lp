@@ -1,13 +1,14 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+/* import { Navigation } from 'swiper/modules' */
 import CardLight from './CardLight';
 import 'swiper/css';
 import { Card } from 'flowbite-react';
 
 function WhoCanUse() {
   return (
-    <div className="min-h-96">
-      <h1>Who Can Use Pom?</h1>
+    <div className='p-8'>
+      <h1 className='text-center mb-8'>Who Can Use Pom?</h1>
 
       <Swiper
       spaceBetween={50}
@@ -18,9 +19,7 @@ function WhoCanUse() {
       <SwiperSlide>
         <CardLight title="Decentralized Autonomous Organizations" text="Boost a sense of belonging among members globally and enable collaborative decision-making with token-powered governance powered by a dedicated PoM voting strategy on the Snapshot." />
       </SwiperSlide>
-
-
-
+      
       <SwiperSlide>
         <CardLight title="Blockchain Projects" text="Build credibility and reward active members with beautiful personalised digital merch!" />
       </SwiperSlide>

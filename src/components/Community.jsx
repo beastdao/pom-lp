@@ -3,6 +3,7 @@ import { Button, Card } from 'flowbite-react'
 import  ConnectImg  from '../assets/connect.png'
 import PomCardImg from '../assets/pom_card.png'
 import feedbackImg from '../assets/feedback_img.png'
+import CardImg from './CardImg'
 
 function Community() {
   return (
@@ -19,27 +20,17 @@ Community Base is a comprehensive database, helping to navigate through a wide r
 
     {/* Cards row */}
     <div className='flex flex-row justify-center p-8 gap-2'>
-      <Card
-        className='max-w-sm p-8 bg-light-purple justify-between'
-        imgAlt='Community Base'
-        imgSrc={ConnectImg}
-      >
-        <h3>CONNECT WITH LIKE MINDED INDIVIDUALS</h3>
-        <p>Share your experiences, insights and concerns about different communities.</p>
-      </Card>
+      <CardImg
+        img={ConnectImg}
+        title="CONNECT WITH LIKE MINDED INDIVIDUALS"
+        text="Share your experiences, insights and concerns about different communities."
+      />
 
-      <Card
-        className='max-w-sm p-8 bg-light-purple'
-        imgAlt='Community Base'
-        imgSrc={feedbackImg}
-      >
-
-        <h3>LISTEN & RESPOND TO FEEDBACK</h3>
-        <p>
-        Verify your community and respond to concerns. (Check FAQs for more details on the process and pricing).</p>
-      </Card>
-
-      
+      <CardImg
+        img={feedbackImg}
+        title="LISTEN & RESPOND TO FEEDBACK"
+        text="Verify your community and respond to concerns. (Check FAQs for more details on the process and pricing)."
+      />      
     </div>    
 
     {/* Purple section */}
