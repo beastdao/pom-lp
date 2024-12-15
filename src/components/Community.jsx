@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'flowbite-react'
+import { Button, Card } from 'flowbite-react'
 import  ConnectImg  from '../assets/connect.png'
 import PomCardImg from '../assets/pom_card.png'
 import feedbackImg from '../assets/feedback_img.png'
@@ -18,30 +18,32 @@ Community Base is a comprehensive database, helping to navigate through a wide r
     </div>
 
     {/* Cards row */}
-    <div className='flex flex-row justify-between p-8 gap-2'>
-      <div className='W-10/12 H-96 bg-light-purple rounded p-8'>
-
-        <img src={ConnectImg} alt='Connect Pom'/>
-
+    <div className='flex flex-row justify-center p-8 gap-2'>
+      <Card
+        className='max-w-sm p-8 bg-light-purple justify-between'
+        imgAlt='Community Base'
+        imgSrc={ConnectImg}
+      >
         <h3>CONNECT WITH LIKE MINDED INDIVIDUALS</h3>
-        <p>
-        Share your experiences, insights and concerns about different communities.</p>
+        <p>Share your experiences, insights and concerns about different communities.</p>
+      </Card>
 
-        </div>
-
-        <div className='W-10/12 H-96 bg-light-purple rounded p-8'>      
-        <img src={feedbackImg} alt ='Pom Community' />
+      <Card
+        className='max-w-sm p-8 bg-light-purple'
+        imgAlt='Community Base'
+        imgSrc={feedbackImg}
+      >
 
         <h3>LISTEN & RESPOND TO FEEDBACK</h3>
         <p>
         Verify your community and respond to concerns. (Check FAQs for more details on the process and pricing).</p>
-      </div>
+      </Card>
 
       
     </div>    
 
     {/* Purple section */}
-    <div className='bg-light-purple col-span-2 flex flex-col justify-evenly items-center p-16'>
+    <div className='bg-light-purple col-span-2 flex flex-col justify-evenly items-center p-16 gap-4'>
         <h2>Personalized & customized memberships</h2>
         <p>The best thing is that community registration and membership minting are available as a free public good!</p>
 

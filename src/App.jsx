@@ -3,11 +3,11 @@ import NavMenu from './components/NavMenu'
 import Hero from './components/Hero'
 import About from './components/About'
 import Community from './components/Community'
-import UseCases from './components/UseCases'
 import Benefits from './components/Benefits'
 import FAQ from './components/FAQ'
 import BeastDao from './components/BeastDao'
 import FooterNav from './components/Footer'
+import WhoCanUse from './components/WhoCanUse'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Hero/>
       <About/>
       <Community/>
-      <UseCases/>
+      <WhoCanUse/>
       <Benefits/>
       <FAQ/>
       <BeastDao/>
