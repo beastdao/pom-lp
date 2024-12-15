@@ -4,10 +4,12 @@ import BeastLogo from '../assets/beast_logo.png'
 
 function Built() {
   return (
-    <div>
-        {/* Check utility classes of the img */}
-        <img src={BeastLogo} className="mr-3 h-6 sm:h-9" alt="BEAST DAO Logo" />
-        <h2>PoM is being built by BEAST DAO members</h2>
+    <div 
+      className='w-full md:w-1/2 mx-auto flex flex-col items-center justify-center p-8 text-center gap-4'
+      >
+      <img src={BeastLogo} alt="BEAST DAO Logo" />
+      <h2 className='text-center'>PoM is being built by BEAST DAO members</h2>
+       
         <p>BEAST DAO is a members-owned initiative, revolutionizing how we collaborate. It's your portal to co-create, fund and govern impactful projects.</p>
 
         <p>BEAST mission is to provide a way for people to come and work together on impactful projects they care about, having access to needed resources, expertise and connections.</p>
