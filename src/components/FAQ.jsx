@@ -1,29 +1,22 @@
-import React from 'react'
-import data from '../faq.json'
+import React from 'react';
+import data from '../faq.json';
+import FAQCard from './FAQCard';
 
 function FAQ() {
+
   return (
-    <div>
-
-      <h2>FAQ</h2>
-
-      {
-        Object.entries(data.faq).map(([sectionKey, { title, questions }]) => (
-          <div key={sectionKey}>
-            <h3>{title}</h3>
-            {questions.map(({ title: questionTitle, text }, index) => (
-              <div key={index}>
-                <h4>{questionTitle}</h4>
-                <p>{text}</p>
-              </div>
-            ))}
-          </div>
-          ))  
-  }
-
-
+    <div className='w-3/4 mx-auto'>
+      <h2 className='text-center'>FAQ</h2>
+      {Object.entries(data.faq).map(([sectionKey, { title, questions }]) => (
+        <div key={sectionKey} className='mb-8'>
+          <h3>{title}</h3>
+          {questions.map(({ title: questionTitle, text }, index) => (
+            <FAQCard key={index} question={questionTitle} answer={text} />
+          ))}
+        </div>
+      ))}
     </div>
-  )
+  );
 }
 
-export default FAQ
+export default FAQ;
