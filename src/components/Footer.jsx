@@ -13,7 +13,7 @@ function FooterNav() {
         name="PoM"
       />
       <Footer.LinkGroup>
-        <Footer.Link href="#">TOS</Footer.Link>
+        <Footer.Link href="https://drive.google.com/file/d/1nQ0Zrc218dltS4_VLLozjO6Scq_EofOB/view?usp=sharing">TOS</Footer.Link>
         <Footer.Link href="mailto: pomcardsnft@gmail.com">CONTACT US</Footer.Link>
       </Footer.LinkGroup>
 

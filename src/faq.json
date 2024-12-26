@@ -14,53 +14,23 @@
           {
             "title": "On which blockchain does PoM operate, and how can I acquire the tokens required for transaction fees?",
             "text": "For now, PoM is built based on Gnosis Chain. Advantages of Gnosis Chain for end users include being an Ethereum sidechain with quick and cheap transactions. Additionally, users can access a Faucet and obtain 'free' xDAI tokens. [Provide a link!]"
-          },
-          {
-            "title": "What is “ETH name initiative”?",
-            "text": "…"
-          },
-          {
-            "title": "I have more questions, how can I contact you?",
-            "text": "…"
           }
         ]
       },
       "members": {
         "title": "For Members",
         "questions": [
-          {
-            "title": "How do I get my membership in a specific community?",
-            "text": "…"
-          },
-          {
-            "title": "There is no community yet, where I want to get membership at. What should I do?",
-            "text": "…"
-          },
-          {
-            "title": "How can I submit a review for a community?",
-            "text": "…"
-          },
+
           {
             "title": "What kind of reviews can I submit for a community?",
             "text": "Write about positive and critical reviews, containing info about the potential risk factors!"
-          },
-          {
-            "title": "…",
-            "text": "…"
           }
+
         ]
       },
       "communities": {
         "title": "For Communities",
         "questions": [
-          {
-            "title": "Why should we create our community at PoM?",
-            "text": "…"
-          },
-          {
-            "title": "Can I change memberships’ design for my community?",
-            "text": "…"
-          },
           {
             "title": "What are the benefits of verified communities?",
             "text": "Navigating the web3 space can sometimes be risky. Communities with verified info, admin, and members can help in building trust by reducing misinformation and creating a better space for learning and collaboration. Also, verified communities can 'endorse/censure' other communities, as well as can decide on the future PoM features."
@@ -68,23 +38,8 @@
           {
             "title": "How do I get my community verified?",
             "text": "Reach out to us through a dedicated Discord channel for the exact steps! But we promise, we’ll keep it quick and simple."
-          },
-          {
-            "title": "How much does it cost to verify a community?",
-            "text": "…"
-          },
-          {
-            "title": "Do we need to know how to code or have a tech guy to use PoM?",
-            "text": "…"
-          },
-          {
-            "title": "How can I set up voting for my PoM memberships' holders?",
-            "text": "…"
-          },
-          {
-            "title": "How can I set up token-gated access for my PoM memberships' holders?",
-            "text": "…"
           }
+
         ]
       }
     }
