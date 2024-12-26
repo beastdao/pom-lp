@@ -5,7 +5,7 @@ import BulletStar from '../assets/Bullet_Star.png'
 
 function Benefits() {
   return (
-    <div className='w-3/4 mx-auto'>
+    <div className='w-3/4 mx-auto' id="#benefits">
       <h1 className='text-center mb-4'>Benefits of Soulbound Tokens</h1>
 
       <h2 className='text-center mb-4'>FOR COMMUNITIES</h2>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Navbar, Dropdown, Avatar } from 'flowbite-react'
+import { HashLink as Link } from 'react-router-hash-link'
 import Logo from '../assets/POM-LOGO.png'
 
 function NavMenu() {
@@ -10,10 +11,10 @@ function NavMenu() {
       </Navbar.Brand>
 
         <Navbar.Collapse>
-          <Navbar.Link href="#" active>
+          <Navbar.Link to="/" active>
             Home
           </Navbar.Link>
-          <Navbar.Link href="#">
+          <Navbar.Link to="#about">
             About PoM
           </Navbar.Link>
          
@@ -28,9 +29,9 @@ function NavMenu() {
             <Dropdown.Item href="#">PoM for Ecosystem Community Base</Dropdown.Item>
          </Dropdown>
           
-          <Navbar.Link href="#">Benefits</Navbar.Link>
-          <Navbar.Link href="#">FAQs</Navbar.Link>
-          <Navbar.Link href="#">Blog</Navbar.Link>
+          <Navbar.Link as="a" href="#benefits">Benefits</Navbar.Link>
+          <Navbar.Link as="a" href="#faq">FAQs</Navbar.Link>
+          <Navbar.Link href="#blog">Blog</Navbar.Link>
         </Navbar.Collapse>
 
         <div className='flex flex-row gap-4 justify-end'>

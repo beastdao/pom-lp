@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Card } from 'flowbite-react'
 import  ConnectImg  from '../assets/connect.png'
 import PomCardImg from '../assets/pom_card.png'
-import feedbackImg from '../assets/feedback_img.png'
+import pomProtocolImg from '../assets/pom_community.png'
 import CardImg from './CardImg'
 
 function Community() {
@@ -27,7 +27,7 @@ Community Base is a comprehensive database, helping to navigate through a wide r
       />
 
       <CardImg
-        img={feedbackImg}
+        img={pomProtocolImg}
         title="LISTEN & RESPOND TO FEEDBACK"
         text="Verify your community and respond to concerns. (Check FAQs for more details on the process and pricing)."
       />      

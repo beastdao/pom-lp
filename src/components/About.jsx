@@ -19,7 +19,7 @@ function About() {
       </div>
 
         <div  className='bg-pastel-green-light p-8 rounded'>
-          <img src={SoulboundTokenImg} alt="PoM Soulbound Token" className='w-full'/>
+          <img src={SoulboundTokenImg}  className='w-full'/>
         </div>
 
         {/* About PoM section 2 */}
