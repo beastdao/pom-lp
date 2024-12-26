@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Navbar } from 'flowbite-react'
+import { Button, Navbar, Dropdown, Avatar } from 'flowbite-react'
 import Logo from '../assets/POM-LOGO.png'
 
 function NavMenu() {
@@ -16,10 +16,21 @@ function NavMenu() {
           <Navbar.Link href="#">
             About PoM
           </Navbar.Link>
-          <Navbar.Link href="#">Community base</Navbar.Link>
-          <Navbar.Link href="#">Use Cases</Navbar.Link>
+         
+          <Dropdown
+            arrowIcon={true}
+            inline
+            label="Use Cases"
+            placement='bottom'
+        >
+            <Dropdown.Item href="#">PoM for People</Dropdown.Item>
+            <Dropdown.Item href="#">PoM for Communities</Dropdown.Item>
+            <Dropdown.Item href="#">PoM for Ecosystem Community Base</Dropdown.Item>
+         </Dropdown>
+          
           <Navbar.Link href="#">Benefits</Navbar.Link>
           <Navbar.Link href="#">FAQs</Navbar.Link>
+          <Navbar.Link href="#">Blog</Navbar.Link>
         </Navbar.Collapse>
 
         <div className='flex flex-row gap-4 justify-end'>
