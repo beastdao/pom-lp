@@ -6,56 +6,60 @@ import 'swiper/css'
 function Partners() {
   return (
     <section className='m-8'>
-        <h2 className='font-arimo font-thin mt-4 mb-8'>ECOSYSTEM</h2>
-        <div className='flex flex-row mb-8'>
+        <h2 className='font-arimo font-thin my-4'>ECOSYSTEM</h2>
+        <div className='flex flex-row mt-4 mb-10'>
+        <Swiper
+            spaceBetween={50}
+            slidesPerView={6}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+        >
             {
                 partnerData.ecosystem.map(
                     (partner, index) => {
                         return (
-                            <Swiper
-                                spaceBetween={50}
-                                slidesPerView={6}
-                                onSlideChange={() => console.log('slide change')}
-                                onSwiper={(swiper) => console.log(swiper)}
-                            >
+                            
                                 <SwiperSlide>
-                                    <div className='flex flex-col items-center'>
+                                    <div className='flex flex-col w-full h-full justify-center'>
                                         <a href={partner.url}>
-                                            <img src={partner.logo} alt={partner.name} className='w-24 h-24'/>
+                                            <img src={partner.path} alt={partner.name} className='w-24 h-18'/>
                                         </a>
                                     </div>
                                 </SwiperSlide>
-                            </Swiper>
+                            
                         )
                     }
                 )
             }
+            </Swiper>
         </div>
 
         <h2 className='font-arimo font-thin mt-4 mb-8'>PARTNERS</h2>
-        <div className='flex flex-row mb-8'>
-        {
+        <div className='flex flex-row mt-4 mb-10'>
+            <Swiper
+                spaceBetween={50}
+                slidesPerView={6}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+            >
+            {
                 partnerData.partners.map(
                     (partner, index) => {
                         return (
-                            <Swiper
-                                spaceBetween={50}
-                                slidesPerView={6}
-                                onSlideChange={() => console.log('slide change')}
-                                onSwiper={(swiper) => console.log(swiper)}
-                            >
+                            
                                 <SwiperSlide key={index}>
-                                    <div className='flex flex-col items-center'>
+                                    <div className='flex flex-col w-full h-full justify-center'>
                                         <a href={partner.url}>
-                                            <img src={partner.logo} alt={partner.name} className='w-24 h-24'/>
+                                            <img src={partner.path} alt={partner.name} className='w-24 h-18'/>
                                         </a>
                                     </div>
                                 </SwiperSlide>
-                            </Swiper>
+                            
                         )
                     }
                 )
             }
+            </Swiper>
         </div>
     </section>
   )
