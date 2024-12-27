@@ -6,7 +6,7 @@ import CommunityImg from '../assets/community.png'
 
 function About() {
   return (
-    <div className='grid grid-cols-2 gap-y-8 m-8' id="about">
+    <section className='grid grid-cols-2 gap-y-8 m-8' id="about">
       <div className='bg-pastel-green p-8 rounded flex flex-col justify-evenly'>
         <h2>About PoM</h2>
         <p>Welcome to PoM – where web3 communities thrive.</p>
@@ -57,7 +57,7 @@ function About() {
           <img src={CommunityImg} alt="PoM Protocol" className='w-full'/>
         </div>
 
-    </div>
+    </section>
   )
 }
 

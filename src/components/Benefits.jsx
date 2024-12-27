@@ -5,7 +5,7 @@ import BulletStar from '../assets/Bullet_Star.png'
 
 function Benefits() {
   return (
-    <div className='w-3/4 mx-auto' id="benefits">
+    <section className='w-3/4 mx-auto' id="benefits">
       <h1 className='text-center mb-4'>Benefits of Soulbound Tokens</h1>
 
       <h2 className='text-center mb-4'>FOR COMMUNITIES</h2>
@@ -36,7 +36,7 @@ function Benefits() {
       )}
       <Button href="https://app.pom.cards/" color='dark' className='sm:w-1/2 w-full mx-auto mb-8'>TRY NOW</Button>
       
-    </div>
+    </section>
   )
 }
 

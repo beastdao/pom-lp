@@ -20,7 +20,7 @@ function Partners() {
                         return (
                             
                                 <SwiperSlide>
-                                    <div className='flex flex-col w-full h-full justify-center'>
+                                    <div className='flex flex-col w-full h-full justify-center' key={index}>
                                         <a href={partner.url}>
                                             <img src={partner.path} alt={partner.name} className='w-24 h-18'/>
                                         </a>

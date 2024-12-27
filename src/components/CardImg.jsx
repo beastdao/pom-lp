@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 function CardImg({img, title, text}) {
   return (
@@ -18,6 +19,12 @@ function CardImg({img, title, text}) {
     </div>
     
   )
+}
+
+Component.propTypes = {
+    img: PropTypes.string,
+    title: PropTypes.string,
+    text: PropTypes.string
 }
 
 export default CardImg

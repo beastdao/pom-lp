@@ -3,11 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 /* import { Navigation } from 'swiper/modules' */
 import CardLight from './CardLight';
 import 'swiper/css';
-import { Card } from 'flowbite-react';
 
 function WhoCanUse() {
   return (
-    <div className='p-8'>
+    <section className='p-8'>
       <h1 className='text-center mb-8'>Who Can Use Pom?</h1>
 
       <Swiper
@@ -37,7 +36,7 @@ function WhoCanUse() {
       </SwiperSlide>
 
     </Swiper>
-    </div>
+    </section>
   );
 }
 

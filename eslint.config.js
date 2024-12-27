@@ -11,6 +11,8 @@ export default [
   pluginReact.configs.flat.recommended,
   {
     plugins: {eslintPluginTailwindCSS},
-    rules: {...eslintPluginTailwindCSS.rules.recommended}
+    rules: {...eslintPluginTailwindCSS.rules.recommended,
+      "react/react-in-jsx-scope": "off",
+    }
   }
 ];

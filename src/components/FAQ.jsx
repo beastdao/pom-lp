@@ -5,7 +5,7 @@ import FAQCard from './FAQCard';
 function FAQ() {
 
   return (
-    <div className='w-3/4 mx-auto' id="faq">
+    <section className='w-3/4 mx-auto' id="faq">
       <h2 className='text-center'>FAQ</h2>
       {Object.entries(data.faq).map(([sectionKey, { title, questions }]) => (
         <div key={sectionKey} className='mb-8'>
@@ -15,7 +15,7 @@ function FAQ() {
           ))}
         </div>
       ))}
-    </div>
+    </section>
   );
 }
 

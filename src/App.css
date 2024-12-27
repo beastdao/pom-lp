@@ -2,3 +2,7 @@
   justify-content: center;
   align-items: center;
 }
+
+section {
+  @apply: mb-8;
+}

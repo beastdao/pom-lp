@@ -7,7 +7,7 @@ import CardImg from './CardImg'
 
 function Community() {
   return (
-    <>
+    <section>
       <div className='md:container md:mx-auto flex flex-col justify-evenly items-center md:w-3/6 md:h-96 p-8 min-h-96 text-center'>
         <h2>Community Base</h2>
         A flagship PoM project for the ecosystem, aiming to make the web3 space safer for the next billion users.
@@ -42,7 +42,7 @@ Community Base is a comprehensive database, helping to navigate through a wide r
 
         <img src={PomCardImg} alt='Pom Card' className='w-1/2'/>
       </div>
-    </>
+    </section>
   )
 }
 
