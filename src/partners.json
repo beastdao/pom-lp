@@ -1,0 +1,82 @@
+{
+    "ecosystem": [
+      {
+        "name": "Ethereum",
+        "path": "public/ecosystem/ethereum_logo.png",
+        "url": "https://ethereum.org/"
+      },
+      {
+        "name": "Guild",
+        "path": "public/ecosystem/Guild_logo.png",
+        "url": "https://guild.xyz/"
+      },
+      {
+        "name": "MetaMask",
+        "path": "public/ecosystem/MetaMask_logo.svg",
+        "url": "https://metamask.io/"
+      },
+      {
+        "name": "Safe",
+        "path": "public/ecosystem/safe_logo.png",
+        "url": "https://safe.global/"
+      },
+      {
+        "name": "Snapshot",
+        "path": "public/ecosystem/snapshot_logo.png",
+        "url": "https://snapshot.org/"
+      },
+      {
+        "name": "WeVM Wagmi",
+        "path": "public/ecosystem/wevm_wagmi_logo.svg",
+        "url": "https://wagmi.sh/"
+      }
+    ],
+    "partners": [
+      {
+        "name": "NBX Women",
+        "path": "public/partners/nbx_women_logo.png",
+        "url": "https://nbx.com/"
+      },
+      {
+        "name": "The DAO Network",
+        "path": "public/partners/The_DAO_Network_logo.png",
+        "url": "https://thedaonetwork.org/"
+      },
+      {
+        "name": "Web3 Women Space",
+        "path": "public/partners/web3_women_space_logo.jpg",
+        "url": "https://web3women.space/"
+      },
+      {
+        "name": "Rolemodel Rebels",
+        "path": "public/partners/rolemodel_rebels_logo.png",
+        "url": "https://rolemodelrebels.com/"
+      },
+      {
+        "name": "Crypto Girls Club",
+        "path": "public/partners/crypto_girls_club.png",
+        "url": "https://cryptogirlsclub.com/"
+      },
+      {
+        "name": "Moralis",
+        "path": "public/partners/Moralis_logo.png",
+        "url": "https://moralis.io/"
+      },
+      {
+        "name": "Thrilld Labs",
+        "path": "public/partners/thrilld_labs_logo.png",
+        "url": "https://thrilldlabs.com/"
+      },
+      {
+        "name": "HER DAO",
+        "path": "public/partners/HER_DAO_logo.png",
+        "url": "https://herdao.org/"
+      },
+      {
+        "name": "Family ConnectKit",
+        "path": "public/partners/Family_ConnectKit_logo.png",
+        "url": "https://familyconnectkit.com/"
+      }
+    ]
+  }
+  

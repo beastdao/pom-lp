@@ -1,6 +1,7 @@
 import './App.css'
 import NavMenu from './components/NavMenu'
 import Hero from './components/Hero'
+import Partners from './components/Partners'
 import About from './components/About'
 import Community from './components/Community'
 import Benefits from './components/Benefits'
@@ -14,6 +15,7 @@ function App() {
     <>
       <NavMenu/>
       <Hero/>
+      <Partners/>
       <About/>
       <Community/>
       <WhoCanUse/>

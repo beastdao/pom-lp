@@ -20,6 +20,9 @@ export default {
       textColor: {
         // grey: 'rgb(25, 21, 22, 60)',
       },
+      fontFamily: {
+        arimo: ['Arimo', 'sans-serif'],
+      }
       }
     },
   plugins: [
