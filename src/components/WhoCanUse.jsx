@@ -14,6 +14,7 @@ function WhoCanUse() {
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      grabCursor={true}
     >
       <SwiperSlide>
         <CardLight title="Decentralized Autonomous Organizations" text="Boost a sense of belonging among members globally and enable collaborative decision-making with token-powered governance powered by a dedicated PoM voting strategy on the Snapshot." />
