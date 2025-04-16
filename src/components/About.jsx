@@ -7,13 +7,13 @@ import CommunityImg from '../assets/community.png'
 function About() {
   return (
     <section className='grid grid-cols-2 gap-y-8 m-8' id="about">
-      <div className='bg-pastel-green p-8 rounded flex flex-col justify-evenly'>
+      <div className='bg-pastel-green rounded-xl flex flex-col justify-evenly card-about'>
         <h2>About PoM</h2>
         <p>Welcome to PoM – where web3 communities thrive.</p>
 
         <p>PoM offers decentralized token-based memberships for communities, simplifying authentication for groups, clubs, projects, DAOs, and their members.</p>
 
-        <p>Register your community effortlessly on our Community Base and mint personalized, customizable SoulBound Tokens for members.</p>
+        <p className='p-normal-margin'>Register your community effortlessly on our Community Base and mint personalized, customizable SoulBound Tokens for members.</p>
 
         <Button href="https://app.pom.cards/" color='dark'  className='w-1/2'>TRY NOW</Button>
       </div>
@@ -23,14 +23,14 @@ function About() {
         </div>
 
         {/* About PoM section 2 */}
-      <div className='bg-pastel-green p-8 rounded flex flex-col justify-evenly'>
+      <div className='bg-pastel-green p-8 rounded-xl flex flex-col justify-evenly'>
         <h2>About PoM</h2>
         <p>PoM aims to make the crypto space safer, and is based on the 3 key pillars:</p>
 
         <p>1. PoM protocol - a decentralised token-based memberships system for community registration, issuance of personalized memberships, and information validation, available as a public good.</p>
         <p>
         2. PoM for Communities: an ultimate tool, allowing to vote together, to enable token-gated access or to boost members identification using beautiful digital merch and much more!</p>
-        <p>3. PoM for Ecosystem: a powerful tech, enabling new public goods & commercial projects. Our flagship project is: Community Base (more info below).</p>
+        <p className='p-normal-margin'>3. PoM for Ecosystem: a powerful tech, enabling new public goods & commercial projects. Our flagship project is: Community Base (more info below).</p>
 
         <Button href="https://app.pom.cards/" color='dark'  className='w-1/2'>TRY NOW</Button>
       </div>
@@ -40,11 +40,11 @@ function About() {
         </div>
 
         {/* How does it work section */}
-        <div className='bg-pastel-blue p-8 rounded flex flex-col justify-evenly'>
+        <div className='bg-pastel-blue p-8 rounded-xl flex flex-col justify-evenly'>
         <h2>PoM for Communities</h2>
         <p>
         Create your community effortlessly with PoM, get personalized, customizable SoulBound Tokens available for your members for free, and boost community cohesion, engagement, and resources.</p>
-        <ol>
+        <ol className='p-normal-margin'>
           <li>1. Create Your Community with the PoM dApp</li>
           <li>2. Invite Members to get PoM Soulbound Tokens</li>
           <li>3. Use token-based memberships for benefit of your community in various ways</li>

@@ -9,6 +9,7 @@
   }
   h2 {
     @apply text-3xl;
+    margin-bottom: 40px;
   }
   h3 {
     @apply text-2xl;
@@ -18,4 +19,50 @@
     background-color: #F8F8F8;
   }
   /* ... */
+}
+
+.navbar {
+  padding: 35px;
+}
+
+.navbar-link {
+  /* padding: 0 64px; */
+  margin: 0 64px;
+}
+
+.navbar-link-collapse {
+  display: flex;
+  gap: 64px;
+}
+
+.p-normal-margin {
+  margin-bottom: 40px;
+}
+
+.p-normal-margin-top {
+  margin-top: 40px;
+}
+
+.partners-row {
+  margin-bottom: 80px;
+}
+
+.card-about {
+  padding: 40px;
+}
+
+.margin-bottom-big {
+  margin-bottom: 112px;
+}
+
+.faq-section-title {
+  margin-bottom: 32px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.footer-gap-80 {
+  gap: 80px
 }

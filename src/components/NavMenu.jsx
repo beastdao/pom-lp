@@ -5,17 +5,17 @@ import Logo from '../assets/POM-LOGO.png';
 
 function NavMenu() {
   return (
-    <Navbar fluid rounded className="bg-pom-white">
+    <Navbar fluid rounded className="navbar bg-pom-white">
       <Navbar.Brand>
         <img
           src={Logo}
-          className="mr-3 h-6 sm:h-9"
+          className="sm:h-9"
           alt="Proof of Membership Logo"
         />
       </Navbar.Brand>
 
-      <Navbar.Collapse>
-        <Navbar.Link as={AnchorLink} href="/">
+      <Navbar.Collapse className='navbar-link-collapse'>
+        <Navbar.Link as={AnchorLink} href="/" >
           Home
         </Navbar.Link>
         <Navbar.Link as={AnchorLink} href="#about">
@@ -36,13 +36,13 @@ function NavMenu() {
           </Dropdown.Item>
         </Dropdown>
 
-        <Navbar.Link as={AnchorLink} href="#benefits">
+        <Navbar.Link as={AnchorLink} href="#benefits" >
           Benefits
         </Navbar.Link>
-        <Navbar.Link as={AnchorLink} href="#faq">
+        <Navbar.Link as={AnchorLink} href="#faq" >
           FAQs
         </Navbar.Link>
-        <Navbar.Link as={AnchorLink} href="#blog">
+        <Navbar.Link as={AnchorLink} href="#blog" >
           Blog
         </Navbar.Link>
       </Navbar.Collapse>

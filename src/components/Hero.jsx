@@ -7,7 +7,7 @@ function Hero() {
     <section className='hero flex flex-row p-16'>
         <div className='flex flex-col gap-4'>
             <h1>Proof of membership</h1>
-            <p>Authenticate the Web3 Space, one Community at a time.</p>
+            <p className='p-normal-margin p-normal-margin-top'>Authenticate the Web3 Space, one Community at a time.</p>
 
             <Button href="https://app.pom.cards/" color='dark' size='lg' className='w-1/2'>TRY NOW</Button>
         </div>

@@ -10,7 +10,7 @@ function FAQCard({question, answer}) {
   }
 
   return (
-    <div className='bg-light-purple p-8 m-1 cursor-pointer rounded'>
+    <div className='bg-light-purple p-8 m-1 cursor-pointer rounded-xl'>
         <span 
           onClick={toggleAnswer}
           className='flex flex-row justify-between align-middle '

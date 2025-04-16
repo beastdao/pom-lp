@@ -8,7 +8,7 @@ function FooterNav() {
     <Footer container className="bg-pom-white">
       <div className="flex flex-row w-full justify-between items-center p-4">
         {/* Left Section: Logo and Links */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center footer-gap-80">
           {/* Logo */}
           <Footer.Brand
             href="https://app.pom.cards"

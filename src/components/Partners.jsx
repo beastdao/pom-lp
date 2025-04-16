@@ -6,8 +6,8 @@ import 'swiper/css'
 function Partners() {
   return (
     <section className='m-8'>
-        <h2 className='font-arimo font-thin my-4'>ECOSYSTEM</h2>
-        <div className='flex flex-row mt-4 mb-10'>
+        <h2 className='font-arimo font-thin'>ECOSYSTEM</h2>
+        <div className='flex flex-row partners-row'>
         <Swiper
             spaceBetween={50}
             slidesPerView={6}
@@ -34,8 +34,8 @@ function Partners() {
             </Swiper>
         </div>
 
-        <h2 className='font-arimo font-thin mt-4 mb-8'>PARTNERS</h2>
-        <div className='flex flex-row mt-4 mb-10'>
+        <h2 className='font-arimo font-thin'>PARTNERS</h2>
+        <div className='flex flex-row partners-row'>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={6}

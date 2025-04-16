@@ -6,12 +6,12 @@ import BulletStar from '../assets/Bullet_Star.png'
 function Benefits() {
   return (
     <section className='w-3/4 mx-auto' id="benefits">
-      <h1 className='text-center mb-4'>Benefits of Soulbound Tokens</h1>
+      <h1 className='text-center margin-bottom-big'>Benefits of Soulbound Tokens</h1>
 
-      <h2 className='text-center mb-4'>FOR COMMUNITIES</h2>
+      <h2 className='text-center'>FOR COMMUNITIES</h2>
       {data.communities.map(
         (benefit, index) => (
-          <div key={index} className='mb-8 flex flex-row justify-start items-center'>
+          <div key={index} className='p-normal-margin flex flex-row justify-start items-center'>
             <img src={BulletStar} alt='bullet star' className='inline-block mr-4'/>
             <div>
               <h3>{benefit.title}</h3>
@@ -20,12 +20,12 @@ function Benefits() {
           </div>
       )
       )}
-      <Button href="https://app.pom.cards/" color='dark' className='sm:w-1/2 w-full mx-auto mb-12'>TRY NOW</Button>
+      <Button href="https://app.pom.cards/" color='dark' className='margin-bottom-big p-normal-margin sm:w-1/2 w-full mx-auto'>TRY NOW</Button>
 
       <h2 className='text-center mb-4'>FOR NEWCOMERS</h2>  
       {data.newcomers.map(
         (benefit, index) => (
-          <div key={index} className='mb-8 flex flex-row justify-start items-center'>
+          <div key={index} className='p-normal-margin flex flex-row justify-start items-center'>
             <img src={BulletStar} alt='bullet star' className='inline-block mr-4'/>
             <div>
               <h3>{benefit.title}</h3>
@@ -34,7 +34,7 @@ function Benefits() {
           </div>
       )
       )}
-      <Button href="https://app.pom.cards/" color='dark' className='sm:w-1/2 w-full mx-auto mb-8'>TRY NOW</Button>
+      <Button href="https://app.pom.cards/" color='dark' className='p-normal-margin margin-bottom-big sm:w-1/2 w-full mx-auto '>TRY NOW</Button>
       
     </section>
   )
